@@ -10,8 +10,8 @@
     <link rel="stylesheet" href="./assets/css/responsive.css">
 </head>
 <body>
-    <div id="main">
-        <div id="header">
+    <main id="main">
+        <header id="header">
             <ul id="nav">
                 <li><a href="#">Home</a></li>
                 <li><a href="#band">Band</a></li>
@@ -34,16 +34,16 @@
             <div class="search-button">
                 <i class="search-icon ti-search"></i>
             </div>
-        </div>
+        </header>
 
-        <div id="slider">
+        <section id="slider">
             <div class="text-content">
                 <h2 class="text-heading">Los Angeles</h2>
                 <p class="text-description">We had the best time playing at Venice Beach!</p>
             </div>
-        </div>
+        </section>
 
-        <div id="content">
+        <section id="content">
             <div id="band" class="content-section">
                 <h2 class="section-heading">The band</h2>
                 <p class="section-sub-heading">We love music</p>
@@ -137,8 +137,8 @@
             <div class="map-section">
                 <img src="/assets/img/map.jpg" alt="">
             </div>
-        </div>
-        <div id="footer">
+        </section>
+        <footer id="footer">
             <div class="link">
                 <a href=""><i class="ti-facebook icon"></i></a>
                 <a href=""><i class="ti-instagram icon"></i></a>
@@ -150,34 +150,8 @@
             <div class="copyright">
                 <p>Powered by <a href="">w3.css</a></p>
             </div>
-        </div>
+        </footer>
 
-    </div>
-    <div class="modal js-modal">
-        <div class="modal-container js-modal-container">
-            <div class="modal-close js-modal-close">
-                <i class="ti-close"></i>
-            </div>
-            <header class="modal-header">
-                <i class="icon ti-bag"></i>  Tickets
-            </header>
-            <div class="modal-body">
-                <label for="ticket-quantity" class="modal-label">
-                    <i class="ti-shopping-cart"></i>Tickets, $15 per person
-                </label>
-                <input id="ticket-quantity" type="text" class="modal-input" placeholder="How many?">
-                <label for="ticket-email" class="modal-label">
-                    <i class="ti-user"></i>Send to
-                </label>
-                <input id="ticket-email" type="text" class="modal-input" placeholder="Enter email...">
-                <button id="pay-btn">
-                    PAY<i class="icon ti-check"></i>
-                </button>
-                <footer class="modal-footer">
-                    <p class="modal-help">Need <a href="">help?</a></p>
-                </footer>
-            </div>
-        </div>      
-    </div>
+    </main>
 </body>
 </html>
